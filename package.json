@@ -1,5 +1,5 @@
 {
-  "name": "mui-phone-number",
+  "name": "@yakovdan98/mui-phone-number",
   "version": "3.0.2",
   "description": "A material-ui v5+ react component to format phone numbers. Based on react-phone-input-2",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/phrensoua/mui-phone-number"
+    "url": "git+https://github.com/yakovdan98/mui-phone-number"
   },
   "keywords": [
     "material",
@@ -22,9 +22,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/phrensoua/mui-phone-number/issues"
+    "url": "https://github.com/yakovdan98/mui-phone-number/issues"
   },
-  "homepage": "https://github.com/phrensoua/mui-phone-number",
+  "homepage": "https://github.com/yakovdan98/mui-phone-number",
   "devDependencies": {
     "@babel/core": "^7.21.0",
     "@babel/eslint-parser": "^7.19.1",
@@ -70,5 +70,6 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "author": ""
 }

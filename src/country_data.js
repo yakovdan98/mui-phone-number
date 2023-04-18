@@ -1517,6 +1517,11 @@ const rawAllCountries = [
 
 const allCountryCodes = {};
 
+const getCountryData = (iso2) => {
+  const countryData = allCountries.find((country) => country.iso2 === iso2);
+  return countryData || null;
+}  
+
 function addCountryCode(iso2, dialCode, priority) {
   if (!(dialCode in allCountryCodes)) {
     allCountryCodes[dialCode] = [];
@@ -1567,4 +1572,5 @@ const allCountries = [].concat(...rawAllCountries.map((country) => {
 module.exports = {
   allCountries,
   allCountryCodes,
+  getCountryData,
 };
